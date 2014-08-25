@@ -47,7 +47,7 @@
       <Name>JammyCakes.Blog.Core</Name>
     </ProjectReference>
     <ProjectReference Include="..\JammyCakes.Blog.Web\JammyCakes.Blog.Web.csproj">
-      <Project>{17f4f576-66c8-4fd7-bb78-ab35bbebce70}</Project>
+      <Project>{53b0cc25-4ab9-4da0-96d3-ba3c9b75fcc7}</Project>
       <Name>JammyCakes.Blog.Web</Name>
     </ProjectReference>
   </ItemGroup>
