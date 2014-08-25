@@ -49,6 +49,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\BlogContext.cs" />
+    <Compile Include="Models\Comment.cs" />
+    <Compile Include="Models\CommentStatus.cs" />
     <Compile Include="Models\IBlogContext.cs" />
     <Compile Include="Models\InitialData\BlogInitializer.cs" />
     <Compile Include="Models\Post.cs" />

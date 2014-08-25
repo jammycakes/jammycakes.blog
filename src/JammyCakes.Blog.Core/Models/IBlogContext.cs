@@ -6,5 +6,7 @@ namespace JammyCakes.Blog.Core.Models
     public interface IBlogContext
     {
         IDbSet<Post> Posts { get; set; }
+
+        IDbSet<Comment> Comments { get; set; }
     }
 }

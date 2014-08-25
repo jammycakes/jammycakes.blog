@@ -17,7 +17,16 @@ namespace JammyCakes.Blog.Core.Models.InitialData
                     Content = "Welcome to JammyCakes.Blog. This is a sample post. " +
                         "Please feel free to delete it and start over with your own " +
                         "blog entries.",
-                    PublicationDate = DateTime.UtcNow
+                    PublicationDate = DateTime.UtcNow,
+                    Comments = new List<Comment> {
+                        new Comment {
+                            Name = "Anonymous Coward",
+                            Email = "anonymous.coward@example.com",
+                            Status = CommentStatus.Approved,
+                            Time = DateTime.UtcNow,
+                            Content = "This is a comment."
+                        }
+                    }
                 }
             };
 

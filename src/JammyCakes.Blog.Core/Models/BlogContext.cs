@@ -20,5 +20,7 @@ namespace JammyCakes.Blog.Core.Models
         }
 
         public IDbSet<Post> Posts { get; set; }
+
+        public IDbSet<Comment> Comments { get; set; }
     }
 }

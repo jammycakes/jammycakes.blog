@@ -15,5 +15,7 @@ namespace JammyCakes.Blog.Core.Models
         public string Content { get; set; }
 
         public DateTime PublicationDate { get; set; }
+
+        public virtual ICollection<Comment> Comments { get; set; }
     }
 }
