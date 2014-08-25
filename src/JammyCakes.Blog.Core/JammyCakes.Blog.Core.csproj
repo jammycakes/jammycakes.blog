@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="Models\BlogContext.cs" />
     <Compile Include="Models\IBlogContext.cs" />
+    <Compile Include="Models\InitialData\BlogInitializer.cs" />
     <Compile Include="Models\Post.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Queries\PagingQuery.cs" />
