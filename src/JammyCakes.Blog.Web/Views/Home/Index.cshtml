@@ -1,7 +1,11 @@
-﻿
+﻿@model IEnumerable<JammyCakes.Blog.Core.Models.Post>
 @{
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Blog</h2>
 
+@foreach (var post in Model)
+{
+    Html.RenderPartial("_post", post);
+}

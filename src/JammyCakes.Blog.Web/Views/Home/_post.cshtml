@@ -1,0 +1,8 @@
+﻿@model JammyCakes.Blog.Core.Models.Post
+<article id="post-@Model.ID" class="post">
+    <header><h2>@Model.Title</h2></header>
+    <time>@Model.PublicationDate.ToString("yyyy-MM-ddTHH:mm:ss")</time>
+    <div class="post-content">
+        @Model.Content
+    </div>
+</article>
