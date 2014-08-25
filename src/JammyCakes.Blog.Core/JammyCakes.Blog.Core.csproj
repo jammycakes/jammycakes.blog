@@ -54,6 +54,7 @@
     <Compile Include="Models\Post.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Queries\PagingQuery.cs" />
+    <Compile Include="Queries\PostSortOrder.cs" />
     <Compile Include="Queries\PostsQuery.cs" />
   </ItemGroup>
   <ItemGroup>
