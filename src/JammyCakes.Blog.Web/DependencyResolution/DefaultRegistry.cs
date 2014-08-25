@@ -16,6 +16,7 @@
 // --------------------------------------------------------------------------------------------------------------------
 
 namespace JammyCakes.Blog.Web.DependencyResolution {
+    using JammyCakes.Blog.Core.Models;
     using StructureMap.Configuration.DSL;
     using StructureMap.Graph;
 	
@@ -26,6 +27,7 @@ namespace JammyCakes.Blog.Web.DependencyResolution {
             Scan(
                 scan => {
                     scan.TheCallingAssembly();
+                    scan.AssemblyContainingType<IBlogContext>();
                     scan.WithDefaultConventions();
                     scan.With(new ControllerConvention());
                 });

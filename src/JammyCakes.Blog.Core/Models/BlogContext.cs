@@ -9,7 +9,7 @@ namespace JammyCakes.Blog.Core.Models
 {
     public class BlogContext : DbContext, IBlogContext
     {
-        public BlogContext(string connectionString) : base(connectionString)
+        public BlogContext() : base("Blog")
         {
         }
 
